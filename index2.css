@@ -1,0 +1,33 @@
+* {
+    text-shadow: 2px 1.5px 20px black;
+    font-size: medium;
+    color: blue;
+    text-transform:uppercase ;
+    text-decoration:unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  body {
+    background-color:rgb(234, 216, 25);
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(190, 180, 180);
+    width: 600px;
+    height: 600px;
+    box-shadow: 2px 4px 15px gray;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
